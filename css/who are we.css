@@ -100,10 +100,10 @@ li a:hover{
         position: fixed;
     
         left:130px;
-        top: 17px;
+        top: 10px;
         transition: .3s;
         height: calc(100vh-60px);
-        /* padding-top:10px ; */
+        padding-top:10px ;
         gap: 10px
     }
     .nav-links li{
@@ -111,13 +111,14 @@ li a:hover{
         
     }
     .nav-links li a{
-        font-size: 15px;
+        font-size: 11px;
         position: relative;
         left: 0px;
         /* bottom:2px; */
-        padding: 2px 4px;
-        gap: 6px;
+        padding: 2px 0px;
+        gap: 2px;
         margin: 0px;
+       
     }
     .nav-links.show{
         right: 0;
@@ -127,7 +128,7 @@ li a:hover{
         right:  30px;
         font-size: 16px;
         padding: 2px;
-        top: 2px;
+        top: 3px;
     }
 }
 
@@ -262,16 +263,16 @@ li a:hover{
 
     /* About Us Section */
     .about-us{
-        padding: 40px 30px;
-        max-width: 500px;
+        padding: 30px 30px;
+        max-width: 200px;
     }
 
     .about-us h2{
-        font-size: 32px;
+        font-size: 25px;
     }
 
     .about-us p{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /* Advantages Section */

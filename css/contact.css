@@ -96,7 +96,7 @@ li a:hover{
       
         position: fixed;
     
-        left:140px;
+        left:130px;
        
         transition: .3s;
         height: calc(100vh-60px);
@@ -105,16 +105,17 @@ li a:hover{
     }
     .nav-links li{
         margin-bottom: 10px;
+    
         
     }
     .nav-links li a{
-        font-size: 15px;
+        font-size: 11px;
         position: relative;
         left: 0px;
         /* bottom:2px; */
-        padding: 2px 4px;
-        gap: 6px;
-        margin: 0px;
+        padding: 2px 0px;
+        gap: 1px;
+        margin: 3px;
     }
     .nav-links.show{
         right: 0;
@@ -235,9 +236,12 @@ li a:hover{
     box-shadow: 15px green;
 }
 @media (max-width:767px){
-   
+   .socials{
+    gap: 20px;
+    padding: 10px;
+}
 .social{
-   
+    
     width: 100px;
     height: 50px;
     border-radius: 15px;
